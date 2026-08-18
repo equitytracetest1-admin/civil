@@ -76,5 +76,13 @@
     var url = "https://wa.me/919952661157?text=" + encodeURIComponent(text);
     window.open(url, '_blank', 'noopener');
   });
+
+  // Map fullscreen button
+  var mapFullscreenBtn = document.getElementById('mapFullscreenBtn');
+  if(mapFullscreenBtn){
+    mapFullscreenBtn.addEventListener('click', function(){
+      window.open('https://maps.google.com/?q=11.3927,79.6994', '_blank', 'noopener');
+    });
+  }
 })();
 
