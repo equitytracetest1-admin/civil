@@ -73,7 +73,7 @@
       "Project type: " + type +
       (message ? ("\nDetails: " + message) : "");
 
-    var url = "https://wa.me/919876543210?text=" + encodeURIComponent(text);
+    var url = "https://wa.me/919952661157?text=" + encodeURIComponent(text);
     window.open(url, '_blank', 'noopener');
   });
 })();
