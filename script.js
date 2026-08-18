@@ -77,3 +77,4 @@
     window.open(url, '_blank', 'noopener');
   });
 })();
+
